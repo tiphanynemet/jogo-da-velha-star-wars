@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Jogo da Velha </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="imagens/icon.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+ </HEAD>
+
+ <BODY>
+
+     <center>
+         <form><fieldset>
+		<legend> Jogadores </legend>
+		<label for="Jogador 1"></label>
+		<input type="text" id="jogador1"/>
+        <span>VS</span>
+		<label for="Jogador 1"></label>
+		<input type="text" id="jogador2"/>
+
+        <br>
+        <br>
+		<input type="button" value="Iniciar" style="margin-top:4px; height: 30px; width:150px; font-size: 15px; border: none; border-radius: 4px; background-color: #005F73; color: white;" onclick="javascript: initGame();"/>
+	</fieldset></form>
+        
+	<br>
+	<br>
+	<h3 id="jogadorAtual"> </h3>
+	<br>
+<div id="game">
+	<table cellpadding="0" cellspacing="0">
+		<tr border="1"> 
+			<td onclick="javascript: setOnCeil(this, 0);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+			<td onclick="javascript: setOnCeil(this, 1);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+			<td onclick="javascript: setOnCeil(this, 2);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+		</tr>
+		<tr> 
+			<td onclick="javascript: setOnCeil(this, 3);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+			<td onclick="javascript: setOnCeil(this, 4);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+			<td onclick="javascript: setOnCeil(this, 5);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+		</tr>
+		<tr> 
+			<td onclick="javascript: setOnCeil(this, 6);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+			<td onclick="javascript: setOnCeil(this, 7);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+			<td onclick="javascript: setOnCeil(this, 8);" onmouseover="javascript: this.style.backgroundColor = '#398291'" onmouseout="javascript: this.style.backgroundColor = '#005F73'"> &nbsp; </td>
+		</tr>
+
+	</table>
+	
+		<div class="congratulations">
+			<h1>VOCÊ VENCEU!</h1>
+			<p style="font-size: 15px;">Clique no botão para jogar de novo.</p><br>
+			<button class="btn" onclick="window.location.reload()">Revanche</button>
+		  </div>
+
+		  <div class="game-over">
+			<h1>DEU VELHA</h1>
+			<p>Deseja jogar de novo?</p>
+			<button class="btn" onclick="window.location.reload()">Sim</button>
+			<a href="#"><button class="btn">Não</button></a>
+		  </div>
+</div>
+
+</center>
+	
+   <script src="js/js.js"></script>
+ </BODY>
+</HTML>
