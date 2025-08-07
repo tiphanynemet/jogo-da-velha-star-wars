@@ -1,13 +1,21 @@
-🌌 Jogo da Velha Star Wars
-Jogo da velha aprimorado com temática Star Wars desenvolvido com HTML, CSS e JavaScript
+# 🌌 Jogo da Velha Star Wars
 
-📅 Ano de desenvolvimento
-2022 - Versão aprimorada criada como evolução do projeto original durante meu curso técnico na ETEC
+Uma versão aprimorada do clássico jogo da velha com temática Star Wars, desenvolvida com HTML, CSS e JavaScript.
 
-🚀 O que foi aprimorado nesta versão?
-Design personalizado, sistema de customização de nomes para os jogadores e efeitos visuais especiais que destacam jogadas.
+## 📅 Ano de desenvolvimento  
+2022 – Esta versão foi criada como evolução do projeto original durante meu curso técnico na ETEC.
 
-⚙ Tecnologias utilizadas
-HTML5 - CSS3 (Flexbox + Grid) - JavaScript
+## 🚀 O que foi aprimorado?
+- 🎨 Design personalizado com tema Star Wars  
+- 🧑‍🤝‍🧑 Sistema de customização de nomes dos jogadores  
+- ✨ Efeitos visuais que destacam as jogadas
 
-⭐ "Que a Força esteja com seus movimentos!"
+## ⚙ Tecnologias utilizadas
+- HTML5  
+- CSS3 
+- JavaScript
+
+---
+
+> ⭐ **"Que a Força esteja com seus movimentos!"**
+
